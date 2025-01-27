@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1d1f21; /* Dark background for dark mode */
+    color: #f4f4f4; /* Light text for contrast */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #e8e8e8;
+}
+
+p {
+    font-size: 1rem;
+    color: #b0b0b0;
+}
+
+a {
+    color: #68bdf5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.about-me {
+    flex: 1;
+    max-width: 50%;
+}
+
+.projects {
+    flex: 1;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #d3d3d3;
+    margin-bottom: 20px;
+}
+
+.project-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #2a2c2f; /* Dark card background */
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #444;
+    transition: background-color 0.3s ease;
+}
+
+.project-card:hover {
+    background-color: #383c41; /* Lighter card background on hover */
+}
+
+h3 {
+    font-size: 1.6rem;
+    color: #e8e8e8;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 1.2rem;
+    color: #b0b0b0;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none; /* Removes dots from the list */
+    margin-left: 0;
+    margin-top: 10px;
+    color: #c1c1c1;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #b0b0b0;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+
+
